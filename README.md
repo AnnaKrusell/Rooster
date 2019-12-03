@@ -1,4 +1,7 @@
 # Rooster
+Models for approximation of indoor parameters (velocity and temperatures) using the livestock template method in Grasshopper.
+Results are generated based on data from a multivariate parametric study of natural ventilation using computational fluid dynamics. 
+
 ## Installation guide
 
 1. Install the livestock template method from [github](https://github.com/livestock3d/livestock3d).
@@ -17,4 +20,3 @@
 7. On the grasshopper canvas, insert the path to the python.exe into the livestock component "Python Executor".
 
 8. You are now ready to use Rooster!
-
