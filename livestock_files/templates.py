@@ -1,4 +1,4 @@
-__author__ = "Christian Kongsgaard"
+__author__ = "Christian Kongsgaard, modified by Anna Krusell and Kristine Marburger"
 __license__ = "MIT"
 
 # -------------------------------------------------------------------------------------------------------------------- #

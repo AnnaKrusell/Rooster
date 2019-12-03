@@ -1,4 +1,4 @@
-__author__ = "Christian Kongsgaard"
+__author__ = "Christian Kongsgaard, modified by Anna Krusell and Kristine Marburger"
 __license__ = "MIT"
 
 # -------------------------------------------------------------------------------------------------------------------- #
@@ -10,8 +10,6 @@ import matplotlib.pyplot as plt
 import os
 import pandas as pd
 import statsmodels.formula.api as sm
-import sklearn
-from sklearn import model_selection
 from sklearn.ensemble import GradientBoostingRegressor
 
 # Livestock imports
@@ -38,7 +36,7 @@ def Rooster_v_boost_function(folder):
     v_out = float(params[6])
     T_out = float(params[7])
     
-    df = pd.read_csv("Livestock_V_data_Samlet.csv", sep = ",", low_memory = False)
+    df = pd.read_csv("Livestock_V_Data.csv", sep = ",", low_memory = False)
     rounded_data = df.round({'Distance': 1})
   
     Distance = int((dist-0.2)*10)
